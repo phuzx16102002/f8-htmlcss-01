@@ -619,6 +619,7 @@ a {
 .footer .social {
     display: flex;
     margin-top: 40px;
+    background: #f9f9f9;
 }
 
 .footer .social-link {
@@ -630,6 +631,9 @@ a {
     border-radius: 3px;
 }
 
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
 .footer .social-link:hover {
     background: #a7a1a1;
 }
