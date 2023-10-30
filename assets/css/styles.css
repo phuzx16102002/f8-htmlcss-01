@@ -23,7 +23,7 @@ body {
 /* Common */
 
 a {
-    text-decoration: blue;
+    text-decoration: none;
 }
 
 .content {
